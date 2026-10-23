@@ -1,0 +1,18 @@
+{
+  "name": "armory",
+  "description": "Drayne's shared Armory skills, sourced from AGORA_Project_Ecosystem",
+  "owner": { "name": "Drayne" },
+  "plugins": [
+    {
+      "name": "armory",
+      "description": "Active Armory skills: Coordination, Exploration, Governance, Refinement, Writing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Drayne-Lab/AGORA_Project_Ecosystem.git",
+        "path": "01_The_Bridge/The_Armory",
+        "ref": "codex/armory-publication-20261023"
+      },
+      "skills": ["./Coordination", "./Exploration", "./Governance", "./Refinement", "./Writing"]
+    }
+  ]
+}
